@@ -8,7 +8,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 20px; */
+  padding: 30px;
 }
 a {
   text-decoration: underline;
@@ -26,10 +26,11 @@ li {
 }
 .container {
   max-width: 800px;
+  min-height: 100vh;
   max-height: 1340px;
   background-color: #fff;
-  padding: 10px 35px;
-  /* border: 1px solid #aaa; */
+  padding: 20px 35px;
+  border: 1px solid #aaa;
 }
 .fx-row {
   display: flex;
