@@ -6,6 +6,7 @@ body {
 main {
   background-color: #efefef;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 30px;
@@ -26,11 +27,12 @@ li {
 }
 .container {
   max-width: 850px;
-  min-height: 100vh;
-  max-height: 1340px;
   background-color: #fff;
   padding: 20px 35px;
   border: 1px solid #aaa;
+}
+.container > section {
+  margin: 16px 0;
 }
 .fx-row {
   display: flex;
@@ -40,4 +42,9 @@ li {
 }
 .font-bold {
   font-weight: bold;
+}
+@media print {
+  .container {
+    border: none;
+  }
 }
